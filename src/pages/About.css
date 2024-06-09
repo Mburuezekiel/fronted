@@ -1,0 +1,92 @@
+.about-container {
+    max-width:100%;
+    margin: 50px auto;
+    padding: 20px;
+    flex: 2;
+    text-align: center;
+    display:flex;
+    flex-direction: column;    
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .vision-container,
+  .jumia-today-container {
+    background-color: #fff;
+    padding: 20px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .vision-heading,
+  .jumia-heading {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .vision-item,
+  .jumia-item {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .bi-icon {
+    color: #007bff;
+    margin-right: 5px;
+  }
+  
+  .jumia-item {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  .jumia-item .bi-icon {
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .team-member-image {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .team-member-description {
+    margin-top: 10px;
+  }
+  
